@@ -5,6 +5,7 @@ Is a simple [Express](https://www.npmjs.com/package/express) middleware to measu
 #### Usage
 
 ```js
+//Make sure is first in the middleware stack. 
 if(process.env.DEBUG){
   var probe = require('probe-mon');
   app.use(probe());
