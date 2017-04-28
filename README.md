@@ -23,12 +23,11 @@ This middleware return the following data:
 In this output example I just have two endpoint one called /slow with a random delay, the delay at server side is returned to test the accuracy of the measurement and other endpoint called /fast that just respond immediately.
 
 ```sh
-sloooowww 948     #server returned the random number.
+sloooowww 948     #server returned the delay random number 948ms.
 
 event:  finish url:  /slow execution  964 ms
 #this line is from the probe plugin
 #execution measurement ≈16m deviation.
-
 
 fast
 event:  finish url:  /fast execution  2 ms
