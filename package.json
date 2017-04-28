@@ -1,13 +1,13 @@
 {
   "name": "probe-mon",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Express middleware to probe latency in your endpoints. ",
   "main": "probe.js",
   "scripts": {
     "test": "sh test/test.sh"
   },
   "author": "cvaldezrx@gmail.com",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "devDependencies": {
     "express": "^4.15.2"
   }
