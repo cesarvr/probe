@@ -1,6 +1,6 @@
 {
   "name": "probe-mon",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Express middleware to probe latency in your endpoints. ",
   "main": "probe.js",
   "scripts": {
